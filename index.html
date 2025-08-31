@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counterfeit Drugs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.7;
+            background-color: #000;
+            color: #fff;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Anton', sans-serif;
+        }
+
+        .navbar {
+            background-color: #111 !important;
+        }
+
+        .custom-logo {
+            height: 70px;
+            position: relative;
+            left: -20px;
+            vertical-align: middle;
+        }
+
+        .navbar .nav-link {
+            color: #ffd700 !important;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .navbar .nav-link:hover {
+            color: #ff0000 !important;
+            text-shadow: 0 0 8px #ff0000, 0 0 12px #ffd700;
+        }
+
+        .hero {
+            background: #111;
+            color: #ffd700;
+            text-align: center;
+            padding: 140px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: #ff0000;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: #ffd700;
+        }
+
+        .section {
+            padding: 60px 20px;
+        }
+
+        .section h2 {
+            font-size: 2.8rem;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #ffd700;
+            text-shadow: 2px 2px 4px #111;
+        }
+
+        .card {
+            border-radius: 10px;
+            border: 4px solid transparent;
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+            font-weight: 500;
+            padding: 25px;
+        }
+
+        .card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
+        }
+
+        #causes .card:nth-child(1) {
+            background: #ff0000;
+            color: #fff;
+            border-color: #ffd700;
+        }
+
+        #causes .card:nth-child(2) {
+            background: #ffd700;
+            color: #111;
+            border-color: #ff0000;
+        }
+
+        #causes .card:nth-child(3) {
+            background: #111;
+            color: #ffd700;
+            border-color: #ff0000;
+        }
+
+        #effects .card:nth-child(1) {
+            background: #ff0000;
+            color: #fff;
+            border-color: #ffd700;
+        }
+
+        #effects .card:nth-child(2) {
+            background: #111;
+            color: #ffd700;
+            border-color: #ff0000;
+        }
+
+        #effects .card:nth-child(3) {
+            background: #ffd700;
+            color: #111;
+            border-color: #ff0000;
+        }
+
+        #effects .card:nth-child(4) {
+            background: #ff0000;
+            color: #fff;
+            border-color: #ffd700;
+        }
+
+        .btn-danger {
+            background-color: #ff0000;
+            color: #fff;
+            border: 2px solid #ffd700;
+            font-weight: 700;
+            transition: 0.3s;
+        }
+
+        .btn-danger:hover {
+            transform: scale(1.05);
+            background-color: #ffd700;
+            color: #111;
+            border-color: #ff0000;
+        }
+
+        footer {
+            background: #111;
+            color: #ffd700;
+            text-align: center;
+            padding: 25px 20px;
+            font-weight: 600;
+        }
+
+        footer a {
+            color: #ff0000;
+            font-weight: 700;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        footer a:hover {
+            color: #ffd700;
+            text-shadow: 0 0 8px #ff0000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="logo.jpg" alt="GP Team 2 Logo" class="custom-logo"> GP Team 2
+            </a>
+
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1 style="font-size:90px">Stop Counterfeit Drugs<br>Save Lives</h1>
+            <b>
+                <p style="font-family:Arial, Helvetica, sans-serif">Raising awareness to protect communities worldwide.
+                </p>
+            </b>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="medicine.jpeg" class="img-fluid rounded shadow" alt="Medicines">
+                </div>
+                <div class="col-md-6">
+                    <h2 style="color:#ff0000">What are Counterfeit Drugs?</h2>
+                    <p>Counterfeit drugs are fake versions of real medications that look genuine but often contain wrong
+                        or harmful ingredients. They might have incorrect dosages, no active ingredients, or toxic
+                        substances.</p>
+                    <p>These drugs are dangerous as they can’t treat illnesses, worsen conditions, or even cause
+                        life-threatening side effects. They create a false sense of security while putting lives at
+                        risk.</p>
+                    <a href="https://www.who.int/news-room/fact-sheets/detail/substandard-and-falsified-medical-products"
+                        target="_blank" class="btn btn-danger">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="causes">
+        <div class="container">
+            <h2>Causes of Counterfeit Drugs</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <h4>Weak Regulation</h4>
+                        <p>Corruption and poor regulation in some countries make it easy for fake drugs to spread.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <h4>High Costs</h4>
+                        <p>Expensive real medicines force people to seek cheaper, fake alternatives.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <h4>Online Pharmacies</h4>
+                        <p>Unregulated online sales make it difficult to track or control counterfeit drugs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="effects">
+        <div class="container">
+            <h2>Effects & Consequences</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <h4>Health Risks</h4>
+                        <p>Counterfeit drugs can cause long-term health complications, failed treatments, or deadly
+                            overdoses.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <h4>Psychological Impact</h4>
+                        <p>Patients may lose trust in medical systems, leading to anxiety and fear of treatment.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <h4>Financial Burden</h4>
+                        <p>People waste money on fake products and face extra medical expenses.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <h4>Public Health Crisis</h4>
+                        <p>Fake drugs fuel antibiotic resistance and harm entire communities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© GP Team 2 | Raising Awareness on Counterfeit Drugs</p>
+        <p><a href="https://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine" target="_blank">More
+                Resources</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
